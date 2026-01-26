@@ -1,7 +1,10 @@
 [build]
   command = "npm run build"
-  publish = ".next"
+  publish = "out"
 
-# Next.js on Netlify is handled automatically by Netlify's Essential Next.js plugin
-# No manual plugin configuration needed for Next.js 16+
+# Environment variables
+[build.environment]
+  NODE_VERSION = "18"
+
+
 
