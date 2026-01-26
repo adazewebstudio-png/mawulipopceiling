@@ -2,5 +2,6 @@
   command = "npm run build"
   publish = ".next"
 
-[[plugins]]
-  package = "@netlify/plugin-nextjs"
+# Next.js on Netlify is handled automatically by Netlify's Essential Next.js plugin
+# No manual plugin configuration needed for Next.js 16+
+
