@@ -1,7 +1,7 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  output: 'export',
+  // output: 'export', // Removed to allow headers and dev server functionality
   images: {
     unoptimized: true, // Required for static export
   },

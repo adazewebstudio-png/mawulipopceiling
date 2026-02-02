@@ -7,7 +7,7 @@ import { CheckCircle2, Hammer, ShieldCheck, Clock } from "lucide-react";
 
 export default function AboutPage() {
     return (
-        <main className="min-h-screen bg-gray-50">
+        <main className="min-h-screen bg-mawuli-gray">
             <Navbar />
 
             {/* Hero Header */}
@@ -75,7 +75,7 @@ export default function AboutPage() {
                     </div>
 
                     <div className="grid md:grid-cols-3 gap-8 text-center">
-                        <div className="p-8 bg-gray-50 rounded-xl hover:shadow-lg transition-shadow">
+                        <div className="p-8 bg-mawuli-gray rounded-xl hover:shadow-lg transition-shadow">
                             <div className="w-16 h-16 bg-white rounded-full flex items-center justify-center mx-auto mb-6 shadow-sm text-mawuli-green">
                                 <Hammer size={32} />
                             </div>
@@ -84,7 +84,7 @@ export default function AboutPage() {
                                 I design and install suspended ceilings, acoustic ceilings, and intricate wall designs that transform ordinary rooms into luxury spaces.
                             </p>
                         </div>
-                        <div className="p-8 bg-gray-50 rounded-xl hover:shadow-lg transition-shadow">
+                        <div className="p-8 bg-mawuli-gray rounded-xl hover:shadow-lg transition-shadow">
                             <div className="w-16 h-16 bg-white rounded-full flex items-center justify-center mx-auto mb-6 shadow-sm text-mawuli-green">
                                 <ShieldCheck size={32} />
                             </div>
@@ -93,7 +93,7 @@ export default function AboutPage() {
                                 I ensure every structure is fortified with the right mixture and support, guaranteeing that your ceiling will never sag or crack.
                             </p>
                         </div>
-                        <div className="p-8 bg-gray-50 rounded-xl hover:shadow-lg transition-shadow">
+                        <div className="p-8 bg-mawuli-gray rounded-xl hover:shadow-lg transition-shadow">
                             <div className="w-16 h-16 bg-white rounded-full flex items-center justify-center mx-auto mb-6 shadow-sm text-mawuli-green">
                                 <CheckCircle2 size={32} />
                             </div>

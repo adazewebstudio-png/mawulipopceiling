@@ -31,7 +31,8 @@ export default async function ServicePage({ params }: { params: Promise<{ id: st
             "name": "Mawuli POP Ceiling",
             "image": "https://mawulipopceiling.com/mawuli-hero.webp",
             "telephone": "+233243356416",
-            "priceRange": "$$"
+            "priceRange": "$$",
+            "description": "Expert POP ceiling installation with video updates for remote clients"
         },
         "areaServed": {
             "@type": "City",
@@ -52,7 +53,7 @@ export default async function ServicePage({ params }: { params: Promise<{ id: st
     };
 
     return (
-        <main className="min-h-screen bg-gray-50">
+        <main className="min-h-screen bg-mawuli-gray">
             <script
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
@@ -132,7 +133,7 @@ export default async function ServicePage({ params }: { params: Promise<{ id: st
                                 <p className="text-gray-600 mb-6">
                                     Contact me today for a free consultation and quote for your {service.title.toLowerCase()} project.
                                 </p>
-                                <Link href="/contact" className="block w-full py-4 bg-mawuli-green text-white font-bold text-center rounded-lg hover:bg-[#1e6f38] transition-colors shadow-md mb-4">
+                                <Link href="/contact" className="block w-full py-4 bg-mawuli-green text-white font-bold text-center rounded-lg hover:bg-mawuli-green-dark transition-colors shadow-md mb-4">
                                     Get a Free Quote
                                 </Link>
                                 <a href="tel:+233243356416" className="block w-full py-4 bg-gray-100 text-mawuli-black font-bold text-center rounded-lg hover:bg-gray-200 transition-colors">

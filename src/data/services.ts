@@ -30,7 +30,7 @@ export const services: Service[] = [
             "Jointing & Finishing",
             "Sanding & Painting Preparation"
         ],
-        image: "/ceiling-installation-1.webp" // Reusing available image
+        image: "/ceiling-installation-3.webp"
     },
     {
         id: "wall-skimming",
@@ -51,7 +51,7 @@ export const services: Service[] = [
             "Fine Sanding",
             "Final Inspection"
         ],
-        image: "/wall-skimming-1.webp"
+        image: "/wall-skimming-2.webp"
     },
     {
         id: "tv-unit-designs",
@@ -72,7 +72,7 @@ export const services: Service[] = [
             "Board Installation & Skimming",
             "Painting & Finishing Touches"
         ],
-        image: "/tv-unit-1.webp"
+        image: "/tv-unit-2.webp"
     },
     {
         id: "wall-designs",
@@ -93,7 +93,7 @@ export const services: Service[] = [
             "Installation of 3D Elements/POP",
             "Jointing & Finishing"
         ],
-        image: "/wall-design-1.webp"
+        image: "/wall-design-2.webp"
     },
     {
         id: "arch-designs",
@@ -114,7 +114,7 @@ export const services: Service[] = [
             "Skimming & Shaping",
             "Final Sanding"
         ],
-        image: "/arch-1.webp"
+        image: "/arch-2.webp"
     },
     {
         id: "pillars-columns",
@@ -135,6 +135,6 @@ export const services: Service[] = [
             "Cap & Base Installation",
             "Finishing & Detailing"
         ],
-        image: "/pillar-1.webp"
+        image: "/pillar-2.webp"
     }
 ];

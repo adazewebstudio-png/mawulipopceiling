@@ -12,6 +12,7 @@ const config: Config = {
                 background: "var(--background)",
                 foreground: "var(--foreground)",
                 "mawuli-green": "#288E48",
+                "mawuli-green-dark": "#1e6f38",
                 "mawuli-red": "#D0202F",
                 "mawuli-black": "#1A1A1A",
                 "mawuli-gold": "#D4AF37",

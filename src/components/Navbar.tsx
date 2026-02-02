@@ -52,10 +52,10 @@ export default function Navbar() {
                         ))}
                         <Link
                             href="/contact"
-                            className="px-6 py-2.5 bg-mawuli-green text-white font-bold rounded-md hover:bg-[#1e6f38] transition-colors shadow-lg flex items-center gap-2"
+                            className="px-6 py-2.5 bg-mawuli-green text-white font-bold rounded-md hover:bg-mawuli-green-dark transition-colors shadow-lg flex items-center gap-2"
                         >
                             <Phone size={18} />
-                            Hire Mawuli
+                            Book a Consultation
                         </Link>
                     </div>
 
@@ -89,10 +89,10 @@ export default function Navbar() {
                         <div className="pt-4">
                             <Link
                                 href="/contact"
-                                className="block w-full text-center px-6 py-3 bg-mawuli-green text-white font-bold rounded-md hover:bg-[#1e6f38] transition-colors"
+                                className="block w-full text-center px-6 py-3 bg-mawuli-green text-white font-bold rounded-md hover:bg-mawuli-green-dark transition-colors"
                                 onClick={() => setIsOpen(false)}
                             >
-                                Hire Mawuli
+                                Book a Consultation
                             </Link>
                         </div>
                     </div>

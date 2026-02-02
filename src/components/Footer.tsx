@@ -15,7 +15,7 @@ export default function Footer() {
                         <h3 className="font-heading text-2xl font-bold mb-4">
                             Mawuli POP<span className="text-mawuli-red">.</span>
                         </h3>
-                        <p className="text-gray-400 mb-6 leading-relaxed">
+                        <p className="text-gray-400 mb-6 leading-relaxed max-w-md">
                             Premium POP ceiling installation, wall skimming, and TV unit design specialist with 16+ years of experience across Ghana.
                         </p>
                         <div className="flex space-x-4">
@@ -46,18 +46,15 @@ export default function Footer() {
                         </ul>
                     </div>
 
-                    {/* Quick Links */}
+                    {/* Legal */}
                     <div>
-                        <h4 className="font-heading text-lg font-bold mb-6 border-b border-gray-800 pb-2 inline-block">Quick Links</h4>
+                        <h4 className="font-heading text-lg font-bold mb-6 border-b border-gray-800 pb-2 inline-block">Legal</h4>
                         <ul className="space-y-3">
                             <li>
                                 <Link href="/privacy-policy" className="text-gray-400 hover:text-mawuli-gold transition-colors">Privacy Policy</Link>
                             </li>
                             <li>
                                 <Link href="/terms-of-use" className="text-gray-400 hover:text-mawuli-gold transition-colors">Terms of Use</Link>
-                            </li>
-                            <li>
-                                <Link href="/sitemap.xml" className="text-gray-400 hover:text-mawuli-gold transition-colors">Sitemap</Link>
                             </li>
                         </ul>
                     </div>

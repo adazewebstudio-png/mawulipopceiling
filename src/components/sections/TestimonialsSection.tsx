@@ -82,7 +82,7 @@ export default function TestimonialsSection({ limit }: { limit?: number }) {
                     <div className="text-center mt-12">
                         <Link
                             href="/testimonials"
-                            className="inline-flex items-center gap-2 px-8 py-4 bg-mawuli-green text-white font-bold rounded-lg hover:bg-[#1e6f38] transition-colors shadow-lg"
+                            className="inline-flex items-center gap-2 px-8 py-4 bg-mawuli-green text-white font-bold rounded-lg hover:bg-mawuli-green-dark transition-colors shadow-lg"
                         >
                             View All Testimonials
                         </Link>

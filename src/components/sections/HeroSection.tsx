@@ -26,11 +26,11 @@ export default function HeroSection() {
                             Available for projects in Ghana
                         </div>
                         <h1 className="font-heading font-bold text-4xl sm:text-5xl lg:text-6xl text-mawuli-black mb-6 leading-tight">
-                            Professional <span className="text-mawuli-green">POP Designs</span> for Homes & Businesses
+                            The POP Specialist You Can Trust for a <span className="text-mawuli-green">Flawless Finish</span>
                         </h1>
                         <p className="text-lg text-gray-600 mb-8 leading-relaxed max-w-lg">
                             From POP ceilings and wall finishes to TV units and pillars.
-                            I bring 16+ years of expert craftsmanship to create modern, durable, and beautiful interiors.
+                            I personally supervise every project to ensure modern, durable, and beautiful interiors.
                         </p>
 
                         <div className="flex flex-col sm:flex-row gap-4 mb-10">
@@ -39,7 +39,7 @@ export default function HeroSection() {
                                 className="inline-flex justify-center items-center gap-2 px-8 py-4 bg-mawuli-red text-white font-bold rounded-lg hover:bg-red-700 transition-colors shadow-lg shadow-red-900/20"
                             >
                                 <Phone size={20} />
-                                Get a Free Quote
+                                Get a Project Estimate
                             </Link>
                             <Link
                                 href="/portfolio"
@@ -67,7 +67,7 @@ export default function HeroSection() {
                                 <div className="p-1 bg-green-100 rounded-full">
                                     <Check size={16} className="text-mawuli-green" />
                                 </div>
-                                Affordable Pricing
+                                Transparent Pricing
                             </div>
                         </div>
                     </motion.div>

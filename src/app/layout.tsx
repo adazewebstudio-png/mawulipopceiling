@@ -36,7 +36,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: "Mawuli POP Ceiling - Professional POP Design & Installation",
-    description: "Expert POP ceiling installation, wall skimming, and TV unit designs in Ghana. 16+ years of experience.",
+    description: "Expert POP ceiling installation, wall skimming, and TV unit designs in Ghana. 16+ years of experience. Providing video updates for diaspora clients.",
     url: "https://mawulipopceiling.com",
     siteName: "Mawuli POP Ceiling",
     images: [

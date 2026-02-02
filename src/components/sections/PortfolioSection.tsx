@@ -1,31 +1,11 @@
-"use client";
-
+import { projects } from "@/data/projects";
 import Image from "next/image";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 
-const projects = [
-    {
-        title: "Grand Hall Ornate Design",
-        category: "Ceiling Installation",
-        image: "/ceiling-installation-5.webp",
-        link: "/portfolio", // Link to portfolio page for now
-    },
-    {
-        title: "Geometric Luxury Masterpiece",
-        category: "Ceiling Installation",
-        image: "/ceiling-installation-4.webp",
-        link: "/portfolio",
-    },
-    {
-        title: "Modern Tray Ceiling",
-        category: "Hall Design",
-        image: "/ceiling-installation-1.webp",
-        link: "/portfolio",
-    },
-];
-
 export default function PortfolioSection() {
+    const featuredProjects = projects.slice(0, 3);
+
     return (
         <section id="portfolio" className="py-20 bg-mawuli-gray">
             <div className="container mx-auto px-4 sm:px-6 lg:px-8">
@@ -47,9 +27,9 @@ export default function PortfolioSection() {
                 </div>
 
                 <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-                    {projects.map((project, index) => (
+                    {featuredProjects.map((project, index) => (
                         <Link
-                            href={project.link}
+                            href="/portfolio"
                             key={index}
                             className="group block bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300"
                         >

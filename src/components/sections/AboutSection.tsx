@@ -9,8 +9,8 @@ const benefits = [
     "Neat & Clean Finishing",
     "Durable Structures",
     "Timely Project Delivery",
-    "Affordable Pricing",
-    "Direct Professional Service",
+    "Transparent Pricing",
+    "Owner-Supervised Projects",
 ];
 
 export default function AboutSection() {
@@ -38,6 +38,7 @@ export default function AboutSection() {
                         </p>
                         <p className="text-gray-600 text-lg mb-8 leading-relaxed">
                             I have personally handled over 100 projects in Accra, Tema, and beyond. My team and I ensure that every job is done with precision, neatness, and structural integrity.
+                            <strong> Building from abroad?</strong> I specialize in working with diaspora clients, providing weekly video updates so you can track progress from anywhere in the world.
                         </p>
 
                         <div className="grid sm:grid-cols-2 gap-4 mb-8">
